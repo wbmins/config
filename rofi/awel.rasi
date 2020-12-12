@@ -1,0 +1,66 @@
+/*
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Mail : adi1090x@gmail.com
+ * Github : @adi1090x
+ * Reddit : @adi1090x
+ * Modified by : aeghn
+ *
+ */
+
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus";
+  drun-icon-theme: "Papirus";
+  location: 0;
+  fake-transparency: false;
+  hide-scrollbar: true;
+  bw: 0;
+  terminal: "alacritty";
+  sidebar-mode: false;
+  font: "Fira Code 14";
+}
+
+* {
+  background-color: #282C33;
+  border-color: #2e343f;
+  text-color: #8ca0aa;
+  spacing: 0;
+  width: 512px;
+}
+
+inputbar {
+  border: 0 0 1px 0;
+  children: [prompt,entry];
+}
+
+prompt {
+  padding: 16px;
+  border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: #2e343f;
+  border: 0 0 1px 0;
+  border-color: #282C33;
+  padding: 8px 16px;
+}
+
+entry {
+  padding: 16px;
+}
+
+listview {
+  cycle: true;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 1px 0;
+  padding: 5px;
+}
+
+element selected {
+  background-color: #2e343f;
+}
