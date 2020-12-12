@@ -67,6 +67,10 @@ exec_always --no-startup-id dunst
 # 剪切
 exec_always --no-startup-id copyq
 
+# 熄屏
+
+exec_always —no-startup-id xset dpms 600
+
 ##### 快捷键配置 #####
 
 # chrome
@@ -82,7 +86,7 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -config ~/.config/rofi/awel.
 bindsym $mod+Tab exec --no-startup-id rofi  -show window -config ~/.config/rofi/themes/Switch.rasi
 
 # lockscreen
-bindsym $mod+9 exec --no-startup-id i3lock -i ~/Pictures/1.png
+bindsym $mod+9 exec --no-startup-id betterlockscreen -l dim
 
 # terminal
 bindsym $mod+Return exec --no-startup-id alacritty
