@@ -49,7 +49,6 @@ make
 network-manager-applet
 noto-fonts-emoji
 ntfs-3g
-oh-my-zsh-git
 os-prober
 pacman
 papirus-icon-theme
@@ -133,5 +132,3 @@ xorg-xwininfo
 xorg-xwud
 yay
 zsh
-zsh-fast-syntax-highlighting
-zsh-theme-powerlevel10k-git
