@@ -1,13 +1,13 @@
 __build_info:
   rime_version: 1.6.1
   timestamps:
-    default: 1607792720
+    default: 1607095465
     default.custom: 0
-    key_bindings: 1607792720
+    key_bindings: 1607095465
     key_bindings.custom: 0
     luna_quanpin.custom: 0
-    luna_quanpin.schema: 1607792720
-    punctuation: 1607792720
+    luna_quanpin.schema: 1604605244
+    punctuation: 1607095465
     punctuation.custom: 0
 engine:
   filters:

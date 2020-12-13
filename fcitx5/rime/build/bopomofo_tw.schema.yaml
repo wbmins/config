@@ -2,12 +2,12 @@ __build_info:
   rime_version: 1.6.1
   timestamps:
     bopomofo_tw.custom: 0
-    bopomofo_tw.schema: 1607792720
-    default: 1607792720
+    bopomofo_tw.schema: 1584206730
+    default: 1607095465
     default.custom: 0
-    key_bindings: 1607792720
+    key_bindings: 1607095465
     key_bindings.custom: 0
-    punctuation: 1607792720
+    punctuation: 1607095465
     punctuation.custom: 0
 custom_phrase:
   db_class: stabledb

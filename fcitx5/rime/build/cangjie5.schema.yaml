@@ -2,14 +2,14 @@ __build_info:
   rime_version: 1.6.1
   timestamps:
     cangjie5.custom: 0
-    cangjie5.schema: 1607792720
-    default: 1607792720
+    cangjie5.schema: 1604088750
+    default: 1607095465
     default.custom: 0
-    key_bindings: 1607792720
+    key_bindings: 1607095465
     key_bindings.custom: 0
-    punctuation: 1607792720
+    punctuation: 1607095465
     punctuation.custom: 0
-    symbols: 1607792720
+    symbols: 1607095465
     symbols.custom: 0
 abc_segmentor:
   extra_tags:
