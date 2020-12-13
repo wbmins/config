@@ -2,10 +2,10 @@ __build_info:
   rime_version: 1.6.1
   timestamps:
     default: 1607095465
-    default.custom: 0
+    default.custom: 1607836857
     key_bindings: 1607095465
     key_bindings.custom: 0
-    luna_pinyin.custom: 1607832062
+    luna_pinyin.custom: 1607838804
     luna_pinyin.schema: 1604605244
     punctuation: 1607095465
     punctuation.custom: 0
@@ -412,7 +412,7 @@ switches:
   - name: ascii_punct
     states: ["。，", "．，"]
 translator:
-  dictionary: luna_pinyin
+  dictionary: luna_pinyin.sogou
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"

@@ -1,5 +1,6 @@
 # encoding: utf-8
 patch:
+  translator/dictionary: luna_pinyin.sogou
   switches:
     - name: ascii_mode
       reset: 0
