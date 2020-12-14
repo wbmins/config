@@ -9,6 +9,7 @@
  */
 
 configuration {
+  lines: 8;
   show-icons: true;
   icon-theme: "Papirus";
   drun-icon-theme: "Papirus";
@@ -27,6 +28,7 @@ configuration {
   text-color: #8ca0aa;
   spacing: 0;
   width: 512px;
+  heigh: 256px;
 }
 
 inputbar {

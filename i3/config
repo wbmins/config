@@ -83,7 +83,7 @@ bindsym $mod+e exec --no-startup-id telegram-desktop
 bindsym $mod+d exec --no-startup-id rofi -show drun -config ~/.config/rofi/awel.rasi
 
 # workspace
-bindsym $mod+Tab exec --no-startup-id rofi  -show window -config ~/.config/rofi/themes/Switch.rasi
+bindsym $mod+Tab exec --no-startup-id rofi  -show window -config ~/.config/rofi/awel.rasi
 
 # lockscreen
 bindsym $mod+9 exec --no-startup-id betterlockscreen -l dim

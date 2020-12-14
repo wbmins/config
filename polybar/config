@@ -62,7 +62,7 @@ module-margin-right = 1
 
 modules-left = i3
 modules-center = date 
-modules-right = netspeed memory cpu temperature battery  line xbacklight pulseaudio 
+modules-right = netspeed memory cpu temperature battery xbacklight pulseaudio 
 overline-size = 6
 overline-color=${colors.xbs}
 underline-size = 3
