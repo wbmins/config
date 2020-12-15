@@ -89,7 +89,7 @@ bindsym $mod+Tab exec --no-startup-id rofi  -show window -config ~/.config/rofi/
 bindsym $mod+9 exec --no-startup-id betterlockscreen -l dim
 
 # terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id st
 
 # polybar
 bindsym $mod+m exec polybar-msg cmd toggle
