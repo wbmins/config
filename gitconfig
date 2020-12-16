@@ -49,3 +49,6 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+[user]
+	email = wbminions@gmail.com
+	name = wbmins

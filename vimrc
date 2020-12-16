@@ -1,7 +1,7 @@
 set nocompatible " 关闭 vi 兼容模式
 syntax on " 自动语法高亮
 set number " 显示行号
-set relativenumber
+set relativenumber "显示相对行号
 set cursorline " 突出显示当前行
 set ruler " 打开状态栏标尺
 set shiftwidth=4 " 设定 << 和 >> 命令移动时的宽度为 4
@@ -31,4 +31,7 @@ set laststatus=2 " 显示状态栏 (默认值为 1, 无法显示状态栏)
 set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:%l/%L%)\ 
 " 设置在状态行显示的信息
 set foldenable " 开始折叠
-set foldmethod=syntax " 设置语法折叠
+" set foldmethod=syntax " 设置语法折叠
+
+"快捷设置
+inoremap jj <esc> "jj代替esc
