@@ -1,0 +1,14 @@
+configuration {
+	modi: "ssh,window,drun,run";
+	lines: 8;
+	font: "Fira Code 14";
+	bw: 0;
+	location: 0;
+	show-icons: true;
+	terminal: "alacritty";
+	icon-theme: "Papirus";
+	sidebar-mode: false;
+	hide-scrollbar: true;
+	fake-transparency: false;
+	theme: "~/.config/rofi/awel.rasi";
+}
