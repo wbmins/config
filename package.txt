@@ -1,7 +1,6 @@
 adobe-source-han-mono-cn-fonts
 adobe-source-han-sans-cn-fonts
 adobe-source-han-serif-cn-fonts
-alacritty
 alsa-utils
 arc-icon-theme
 archlinuxcn-keyring
