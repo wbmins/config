@@ -263,7 +263,7 @@ bindsym $mod+8 workspace $ws8
 #bindsym $mod+9 workspace $ws8;[class=.*] scratchpad show
 
 ##### 工作区启动 #####
-assign [class="Alacritty"] $ws1
+assign [class="St"] $ws1
 assign [class="Google-chrome"] $ws2
 # assign [class="TelegramDesktop"] $ws3 
 
