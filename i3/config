@@ -47,7 +47,7 @@ client.background       #ffffff
 ##### 开机自启 #####
 
 # 壁纸
-exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/12.jpg
+exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/wall.png
 
 # 状态
 exec_always --no-startup-id  ~/.config/polybar/launch.sh
