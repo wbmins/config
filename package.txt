@@ -49,6 +49,7 @@ lsd
 lxappearance-gtk3
 m4
 make
+mlocate
 neofetch
 network-manager-applet
 noto-fonts-emoji
