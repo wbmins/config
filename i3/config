@@ -103,6 +103,9 @@ bindsym $mod+f fullscreen toggle
 # 截图
 bindsym ctrl+shift+a exec --no-startup-id flameshot
 
+# search
+bindsym $Mod1+f exec --no-startup-id locate / media | rofi -threads 0 -width 100 -dmenu -i -p "locate:" | xargs -r -0 xdg-open
+
 # 音量快捷键
 bindsym XF86AudioRaiseVolume exec amixer set Master playback 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master playback 5%-  
