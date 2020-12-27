@@ -1,6 +1,9 @@
 [submodule "st"]
 	path = st
 	url = https://github.com/wbmins/st.git
+[submodule "zinit"]
+	path = zinit
+	url = https://github.com/zdharma/zinit.git
 [submodule "ranger/plugins/ranger_devicons"]
 	path = ranger/plugins/ranger_devicons
 	url = https://github.com/alexanderjeurissen/ranger_devicons.git
