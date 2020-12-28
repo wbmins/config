@@ -6,11 +6,11 @@ alias ls="lsd"
 # ------------zinit manger zsh plugs start------------
 source ~/.config/zinit/zinit.zsh
 
-zinit ice wait notify
-zinit snippet OMZ::lib/history.zsh
+# zinit ice wait notify
+zinit snippet OMZL::history.zsh
 
-zinit ice wait notify
-zinit snippet OMZ::lib/git.zsh
+# zinit ice wait notify
+zinit snippet OMZL::git.zsh
 
 # theme
 zinit load romkatv/powerlevel10k
