@@ -8,6 +8,7 @@ aria2
 autoconf
 automake
 base
+bat
 betterlockscreen
 binutils
 bison
@@ -27,7 +28,6 @@ file
 findutils
 flameshot
 flex
-fzf
 gawk
 gcc
 gettext
