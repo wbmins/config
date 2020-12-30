@@ -3,15 +3,18 @@ alias la="ls -al"
 alias ls='ls --color=auto'
 alias ls="lsd"
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+alias -s gz='tar -xzvf'
 
 # ------------zinit manger zsh plugs start------------
 source ~/.config/zinit/zinit.zsh
 
-# zinit ice wait notify
+# OMZL
 zinit snippet OMZL::history.zsh
-
-# zinit ice wait notify
 zinit snippet OMZL::git.zsh
+zinit snippet OMZL::compfix.zsh
+zinit snippet OMZL::completion.zsh
+zinit snippet OMZL::directories.zsh
+zinit snippet OMZL::grep.zsh
 
 # theme
 zinit light romkatv/powerlevel10k
