@@ -1,0 +1,3 @@
+GO111MODULE=on
+GOPATH=/home/mins/.config/golang
+GOPROXY=https://goproxy.cn,direct

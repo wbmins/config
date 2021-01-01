@@ -11,3 +11,7 @@ qt5ct
 gtk-3.0
 copyq
 pulse
+# go dependency
+golang
+# java maven
+m2
