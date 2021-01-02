@@ -9,19 +9,20 @@ alias -s gz='tar -xzvf'
 
 # ZINIT path
 declare -A ZINIT
-ZINIT[HOME_READY]=1
+
 ZINIT[BIN_DIR]=~/.config/zinit/bin
 ZINIT[HOME_DIR]=~/.config/zinit
 ZINIT[PLUGINS_DIR]=~/.config/zinit/plugins
 ZINIT[COMPLETIONS_DIR]=~/.config/zinit/completions
 ZINIT[SNIPPETS_DIR]=~/.config/zinit/snippets
 ZINIT[COMPINIT_OPTS]=~/.config/zinit
+ZINIT[ZCOMPDUMP_PATH]=~/.cache/zsh/zcompdump-${ZSH_VERSION}
 
 source ~/.config/zinit/bin/zinit.zsh
 
-# zcompdump
-autoload -Uz compinit
-compinit -d ~/.cache/zsh/zcompdump-$ZSH_VERSION
+# compinit generate zcompdump
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
 
 # define zsh history command file
 HISTSIZE=10000
