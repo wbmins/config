@@ -6,7 +6,8 @@ EnumerateSkipFirst=False
 
 [Hotkey/TriggerKeys]
 0=Shift+Shift_L
-1=Shift+Shift_R
+1=Zenkaku_Hankaku
+2=Hangul
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
@@ -55,6 +56,10 @@ PreeditEnabledByDefault=True
 ShowInputMethodInformation=True
 # 在焦点更改时显示输入法信息
 showInputMethodInformationWhenFocusIn=False
+# 显示紧凑的输入法信息
+CompactInputMethodInformation=True
+# 显示第一个输入法的信息
+ShowFirstInputMethodInformation=True
 # 默认页大小
 DefaultPageSize=5
 # Force Enabled Addons
