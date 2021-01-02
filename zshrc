@@ -55,6 +55,9 @@ zinit load zdharma/history-search-multi-word
 # fzf
 zinit ice from"gh-r" as"program"
 zinit load junegunn/fzf-bin
+
+# fzf-tab
+zinit light Aloxaf/fzf-tab
 # ------------zinit manger zsh plugs end------------
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
