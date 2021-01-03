@@ -199,7 +199,7 @@ label-mode-background = #e85d00
 ;   %output%
 ; Default: %icon%  %name%
 label-focused =%index% : %icon%
-label-focused-foreground = #4169e1
+label-focused-foreground = #00ff2b
 label-focused-background = ${colors.xbg}
 label-focused-padding = 3
 ; Available tokens:

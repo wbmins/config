@@ -64,3 +64,4 @@ export XMODIFIERS="@im=fcitx5"
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 export ZINIT_HOME=~/.config/zinit
+source ~/.zshenv
