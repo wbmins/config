@@ -38,6 +38,7 @@ groff
 grub
 gzip
 htop
+hugo
 i3-gaps
 i3lock-color
 intel-ucode

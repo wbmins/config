@@ -1,6 +1,6 @@
 [Hotkey]
 # 反复按切换键时进行轮换
-EnumerateWithTriggerKeys=True
+EnumerateWithTriggerKeys=False
 # 轮换输入法时跳过第一个输入法
 EnumerateSkipFirst=False
 

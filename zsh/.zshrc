@@ -4,8 +4,10 @@ alias ls='ls --color=auto'
 alias ls="lsd"
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias -s gz='tar -xzvf'
-alias vimz='vim ~/.config/zsh/zshrc'
+alias vimz='vim ~/.config/zsh/.zshrc'
 alias vimp='vim ~/.config/profile'
+alias aup="aria2c --conf-path='${XDG_CONFIG_HOME}/aria2c.conf' -D"
+alias adown="kill -9 $(ps -ef | grep aria2c | grep -v grep | awk '{print $2}')"
 
 # ZINIT init
 declare -A ZINIT=(
