@@ -38,10 +38,6 @@ zinit wait lucid for \
   OMZP::sudo\
   OMZP::golang
 
-zinit wait="1" lucid light-mode for \
-    tj/git-extras\
-    wfxr/forgit
-
 zinit wait lucid for \
  atinit"ZINIT[COMPINIT_OPTS]=-C; zpcompinit; zpcdreplay" \
     zdharma/fast-syntax-highlighting \
