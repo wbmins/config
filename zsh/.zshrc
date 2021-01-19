@@ -1,5 +1,8 @@
 # aliases
 alias la="ls -al"
+alias ~="cd ~"
+alias ..="cd .."
+alias ...="cd ../.."
 alias ls='ls --color=auto'
 alias ls="lsd"
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"

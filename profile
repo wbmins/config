@@ -57,9 +57,10 @@ export https_proxy=$http_proxy
 all_proxy=socks://127.0.0.1:7891
 no_proxy=localhost,127.0.0.1
 
-export GTK_IM_MODULE=fcitx5
-export QT_IM_MODULE=fcitx5
-export XMODIFIERS="@im=fcitx5"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS="@im=fcitx"
+export SDL_IM_MODULE=fcitx
 
 export QT_QPA_PLATFORMTHEME=qt5ct
 
