@@ -1,15 +1,15 @@
 # aliases
-alias la="ls -al"
-alias ~="cd ~"
-alias ..="cd .."
-alias ...="cd ../.."
-alias ls='ls --color=auto'
-alias ls="lsd"
-alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+alias    la="ls -al"
+alias     ~="cd ~"
+alias    ..="cd .."
+alias   ...="cd ../.."
+alias    ls='ls --color=auto'
+alias    ls="lsd"
+alias   fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias -s gz='tar -xzvf'
-alias vimz='vim ~/.config/zsh/.zshrc'
-alias vimp='vim ~/.config/profile'
-alias aup="aria2c --conf-path='${XDG_CONFIG_HOME}/aria2c.conf' -D"
+alias  vimz='vim ~/.config/zsh/.zshrc'
+alias  vimp='vim ~/.config/profile'
+alias   aup="aria2c --conf-path='${XDG_CONFIG_HOME}/aria2c.conf' -D"
 alias adown="kill -9 $(ps -ef | grep aria2c | grep -v grep | awk '{print $2}')"
 
 # ZINIT init
@@ -36,9 +36,8 @@ HISTFILE=~/.cache/zsh/history
 
 # ohmyzsh part plug
 zinit wait lucid for \
-  OMZL::history.zsh\
-  OMZL::git.zsh\
-  OMZP::sudo\
+  OMZL::git.zsh \
+  OMZP::sudo \
   OMZP::golang
 
 zinit wait lucid for \
@@ -56,7 +55,7 @@ zinit load zdharma/history-search-multi-word
 zinit ice from"gh-r" as"program"
 zinit load junegunn/fzf-bin
 
-# fzf
+# exa
 zinit ice from"gh-r" as"program" mv"exa* -> exa"
 zinit load ogham/exa
 
@@ -77,25 +76,20 @@ zstyle ":fzf-tab:*" fzf-flags --color=bg+:23
 zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 
 # theme
-: ${THEME:=p10k}
+# : ${THEME:=p10k}
 
-case $THEME in
-    space)
-        zinit ice depth=1
-        zinit light denysdovhan/spaceship-prompt
-        ;;
-    p10k)
-        zinit ice depth=1
-        zinit light romkatv/powerlevel10k
-        # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
-        # Initialization code that may require console input (password prompts, [y/n]
-        # confirmations, etc.) must go above this block; everything else may go below.
-        if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-        source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-        fi
-        # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
-        [[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
+tput longname| grep -q "console"
 
-        ;;
-esac
+if [ $? -ne 0 ] ;then
+   zinit ice depth=1
+   zinit light romkatv/powerlevel10k
+   # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.config/zsh/.zshrc.
+   # Initialization code that may require console input (password prompts, [y/n]
+   # confirmations, etc.) must go above this block; everything else may go below.
+   if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+      source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+   fi
+   # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
+   [[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
+fi
 # ------------plug loading end  ------------
